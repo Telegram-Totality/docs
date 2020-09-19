@@ -1,0 +1,26 @@
+site_name: Telegram Totality (beta)
+nav:
+  - General:
+    - Overview: index.md
+    - Roadmap: roadmap.md
+  - Protocol:
+    - Overview: protocol/index.md
+    - Totality Server API: protocol/api.md
+  - Implementations:
+    - Overview: implementations/index.md
+    - Bots: implementations/bots.md
+theme:
+  name: 'material'
+  palette:
+    primary: blue
+    accent: yellow
+  features:
+    - tabs
+  custom_dir: 'theme'
+  icon:
+    logo: fontawesome/brands/telegram-plane
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
